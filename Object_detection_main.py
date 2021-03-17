@@ -61,8 +61,7 @@ def table_det(img_name,line_thickness=8,min_score_thresh=0.60):
         use_normalized_coordinates=True,
         line_thickness=line_thickness,
         min_score_thresh=min_score_thresh)
-    
-    
+        
     return image
 
 if __name__=='__main__':
